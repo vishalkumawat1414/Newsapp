@@ -1,0 +1,26 @@
+.intro {
+	font-weight: bolder;
+	margin: 10px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	color: brown;
+}
+.searchBox {
+	color: aqua;
+	box-sizing: border-box;
+	font-size: larger;
+	box-sizing: content-box;
+     position: absolute;
+     top: 10px;
+     left: 600px;
+}
+.button {
+	color: brown;
+	font-weight: bolder;
+	margin-left: 10px;
+}
+button:hover {
+	color: greenyellow;
+}
