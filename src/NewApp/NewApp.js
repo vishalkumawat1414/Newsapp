@@ -35,18 +35,20 @@ function NewApp() {
 
 	return (
 		<div class='container'>
-			<div class='intro'>
-				<h2>E-news-paper</h2>
-				<p>Made by Himanshu Mishra</p>
+			<div class="header">
+				<div class='intro'>
+					<h1 class="heading">E-news-paper</h1>
+					<p>Made by Himanshu Mishra</p>
+				</div>
+                  <div class='searchBox'>
+				<form >
+					<input type='text' placeholder='Enter Topic' ref={queryref} />
+					<button class='button' onClick={Handelsubmit}>
+						Search 
+					</button>
+				</form></div>
 			</div>
-
-			<form class="searchBox">
-				<input  type='text' placeholder="Enter Topic" ref={queryref} />
-                <button class="button" onClick={Handelsubmit}>Search</button>
-                
-			</form>
-
-			<div>
+			<div class='content'>
 				{Newslist?.map((news) => {
 					// return <p>{news.title}</p>;
 					return (

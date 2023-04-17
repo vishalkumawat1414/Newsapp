@@ -4,14 +4,42 @@
     margin: 0%;
 }
 .image{
-    width :30%;
+    margin-top: 100px;
+    width :25%;
     border-color: rgb(13, 14, 13);
-   
+    
     border-radius: 10px;
+    
 }
 .title{
     margin-top: 10px;
     font-size: medium;
     font-style: italic;
+    
+    
+}
+.para{
+    width: 50%;
+    color: gray;
+    position: relative;
+    /* left: 300px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    left: 200px;
+   
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.data{
+     position: relative;
+    margin-top: 100px;
+    left: 50px;
+}
+.btn-read-more{
+    width: 80px;
+    height: 30px;
+    border-radius: 10%;
     
 }
