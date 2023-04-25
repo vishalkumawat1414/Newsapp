@@ -7,7 +7,7 @@ import Notes from './Poject1searchNote/Notes';
 import React,{useState} from 'react';
 import UseEffectHook from './components/UseEffectHook';
 import NewApp from './NewApp/NewApp';
-import Convetor from './convertor/Convetor';
+// import Convetor from './convertor/Convetor';
 
 
 
